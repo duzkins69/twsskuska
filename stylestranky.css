@@ -1,0 +1,274 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(216, 5, 5);
+    color: white;
+}
+
+
+header {
+    
+    background-color: black;
+    padding: 18px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+nav a {
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+.logo {border: 2px solid red;height: 45px;position:absolute;left: 10;margin-top: -13.5px;width: 40px;
+  
+}
+
+
+
+.nazov {
+    text-align: center;
+    font-size: 45px;
+    color: black;
+    margin: 40px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    
+}
+
+.text-box {
+    background: black;
+    padding: 35px;
+    border-radius: 15px;
+    border: 3px solid white;
+    width: 450px;
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.text-box p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.fotka {
+    width: 380px;
+    border-radius: 15px;
+    border: 4px solid black;
+}
+
+
+.obsah {
+    width: 80%;
+    margin: 0 auto 60px auto;
+}
+
+.blok {
+    margin-bottom: 50px;
+}
+
+.blok h2 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.karta {
+    display: flex;
+    gap: 30px;
+    background-color: #1a1a1a;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 20px;
+}
+.karta img {
+    width: 200px;
+    height: 200px;
+    background-color: #2a2a2a;
+    border-radius: 10px;}
+
+    
+
+
+ol, ul {
+    font-size: 20px;
+}
+
+
+.rozvrh {
+    width: 80%;
+    margin: 10px auto 50px auto;
+    border-collapse: collapse;
+    font-size: 28px;
+    text-align: center;
+    background-color: #1a1a1a;
+    border: 2px solid black;
+}
+
+.rozvrh th {
+    background-color: red;
+    color: black;
+    padding: 15px;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+.rozvrh td {
+    padding: 17px;
+    border: 1px solid red;
+}
+
+
+
+
+.rozvrh {
+    background-color: #1f1f1f;
+}
+
+.rozvrh td:hover {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+
+
+.harmonogram-nazov {
+    text-align: center;
+    font-size: 38px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.harmonogram {
+    width: 70%;
+    margin: 0 auto 60px auto;
+    border-collapse: collapse;
+    font-size: 26px;
+    text-align: center;
+    background-color: #1a1a1a;
+    border: 2px solid black;
+}
+
+.harmonogram th {
+    background-color: red;
+    color: black;
+    padding: 14px;
+    border: 2px solid black;
+}
+
+.harmonogram td {
+    padding: 14px;
+    border: 1px solid red;
+}
+
+
+
+
+.harmonogram tr:hover {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+    margin-bottom: 60px;
+}
+
+.galeria .karta {
+    display: block;  
+    width: 260px;
+    background-color: #1a1a1a;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.galeria .karta img {
+    width: 100%;
+    height: 180px;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.galeria .karta:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.formular {
+    width: 40%;
+    margin: 0 auto 60px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    border: 3px solid white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.formular label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.formular input,
+.formular textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid red;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+
+.odoslat {
+    margin-top: 25px;
+    padding: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.odoslat:hover {
+    background-color: white;
+    color: red;
+}

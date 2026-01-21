@@ -1,0 +1,25 @@
+div {display: flex; flex-direction: column;border: solid 10px whitesmoke;border-radius: 16px;
+    background-color: white; box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+    border-style: none; margin-left: 530px;margin-right: 530px;padding: 40px;
+
+
+
+
+}
+.or{margin-bottom: 20px;padding: 10px;border-radius: 6px;
+
+
+
+}
+.jj{background-color: rgb(0, 145, 255);color: white;padding: 10px;margin-right: 25px;border-radius: 6px;border: none;
+font-size: 15px;
+
+
+
+}
+.fd{display: flex; justify-content: center;color:rgb(0, 145, 255) ;
+
+}
+h1{display: flex; justify-content: center;}
+
+

@@ -1,0 +1,126 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+header {
+    background-color: black;
+    padding: 15px ;
+    border-bottom: 3px solid red;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+nav a {
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    color: white;
+    
+}
+
+
+.nazov {
+    text-align: center;
+    font-size: 45px;
+    color: red;
+    margin-top: 40px;
+}
+
+
+.rozvrh {
+    width: 80%;
+    margin: 10px auto 50px auto;
+    border-collapse: collapse;
+    font-size: 28px;
+    text-align: center;
+    background-color: #1a1a1a;
+    border: 2px solid red;
+    
+}
+
+
+.rozvrh th {
+    background-color: red;
+    color: black;
+    padding: 15px;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+
+.rozvrh td {
+    padding: 17px;
+    border: 1px solid red;
+}
+
+
+.rozvrh tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+.rozvrh tr:nth-child(odd) {
+    background-color: #1f1f1f;
+}
+
+
+.rozvrh td:hover {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+.harmonogram-nazov {
+    text-align: center;
+    font-size: 38px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.harmonogram {
+    width: 70%;
+    margin: 0 auto 60px auto;
+    border-collapse: collapse;
+    font-size: 26px;
+    text-align: center;
+    background-color: #1a1a1a;
+    border: 2px solid red;
+}
+
+.harmonogram th {
+    background-color: red;
+    color: black;
+    padding: 14px;
+    border: 2px solid black;
+}
+
+.harmonogram td {
+    padding: 14px;
+    border: 1px solid red;
+}
+
+.harmonogram tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+.harmonogram tr:hover {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+.logo {border: 2px solid red;height: 45px;position:absolute;left: 10;margin-top: -13.5px;width: 40px;
+  
+}

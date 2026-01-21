@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+header {
+    background-color: black;
+    padding: 15px ;
+    border-bottom: 3px solid red;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+nav a {
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+.nazov {
+    text-align: center;
+    font-size: 45px;
+    color: red;
+    margin: 40px ;
+}
+
+
+.obsah {
+    width: 80%;
+    margin: 0 auto 60px auto;
+}
+
+
+.blok {
+    margin-bottom: 50px;
+}
+
+.blok h2 {
+    color: red;
+    margin-bottom: 15px;
+}
+
+
+.karta {
+    display: flex;
+    gap: 30px;
+    background-color: #1a1a1a;
+    border: 3px solid red;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+.karta img {
+    width: 200px;
+    height: 200px;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+ol, ul {
+    font-size: 20px;
+}
+
+ul ul, ol ul {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.logo {border: 2px solid red;height: 45px;position:absolute;left: 10;margin-top: -13.5px;width: 40px;
+  
+}

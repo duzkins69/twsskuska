@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+header {
+    background-color: black;
+    padding: 15px ;
+    border-bottom: 3px solid red;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+nav a {
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+.nazov {
+    text-align: center;
+    font-size: 45px;
+    color: red;
+    margin: 40px ;
+}
+
+
+.formular {
+    width: 40%;
+    margin: 0 auto 60px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    border: 3px solid red;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+
+.formular label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.formular input,
+.formular textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid red;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+
+.formular input:focus,
+.formular textarea:focus {
+    outline: none;
+    background-color: #2a2a2a;
+}
+
+
+.odoslat {
+    margin-top: 25px;
+    padding: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.odoslat:hover {
+    background-color: white;
+    color: red;
+}
+.logo {border: 2px solid red;height: 45px;position:absolute;left: 10;margin-top: -13.5px;width: 40px;
+  
+}
